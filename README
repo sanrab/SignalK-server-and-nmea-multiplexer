@@ -1,0 +1,17 @@
+SignalK server and nmea-multiplexer on Raspberry ZeroW
+
+Install RaspbianOS Lite
+Install kplex (http://www.stripydog.com/download/kplex_1.4-1_armhf.deb)
+Install nodejs from debian repository, not from nodesource
+sudo apt install nodejs
+sudo apt install npm
+sudo apt install libnss-mdns avahi-utils libavahi-compat-libdnssd-dev
+sudo npm install -g signalk-server (very long)
+sudo signalk-server-setup
+
+Install power on-off button 
+(https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi)
+
+Make the system read only to preserve SD card 
+(https://medium.com/@andreas.schallwig/how-to-make-your-raspberry-pi-file-system-read-only-raspbian-stretch-80c0f7be7353)
+
