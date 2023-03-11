@@ -15,3 +15,13 @@ Install power on-off button
 Make the system read only to preserve SD card 
 (https://medium.com/@andreas.schallwig/how-to-make-your-raspberry-pi-file-system-read-only-raspbian-stretch-80c0f7be7353)
 
+input:
+USB
+- Seatalk (/dev/ttyUSB0)/Ublox (/dev/ttyACM0, 57600)
+- dAISy (/dev/ttyAMA0, 38400)
+
+output:
+- rs422 per AIS su Raymarine C-80 (38400)
+- tcp su porta 20220
+
+Router/Access Point Mango (GL-MT300N-V2)
