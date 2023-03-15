@@ -1,4 +1,4 @@
-SignalK server and nmea-multiplexer on Raspberry ZeroW
+SignalK server and nmea-multiplexer on Raspberry Zero W
 
 Install RaspbianOS Lite
 Install kplex (http://www.stripydog.com/download/kplex_1.4-1_armhf.deb)
@@ -25,3 +25,5 @@ output:
 - tcp su porta 20220
 
 Router/Access Point Mango (GL-MT300N-V2)
+
+A second Raspberry Zero W with Waveshare MPU9255 IMU I2c sensor, tinypilot (magnetic heading, roll and pitch NMEA on port 20220)
