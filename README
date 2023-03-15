@@ -21,8 +21,8 @@ USB
 - dAISy (/dev/ttyAMA0, 38400)
 
 output:
-- rs422 per AIS su Raymarine C-80 (38400)
-- tcp su porta 20220
+- rs422 for AIS on Raymarine C-80 (38400) chartplotter
+- tcp on port 20220
 
 Router/Access Point Mango (GL-MT300N-V2)
 
